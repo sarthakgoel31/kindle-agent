@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="logo.png" alt="Kindle Agent Logo" width="120" />
+</p>
+
 # Kindle Agent
 
 **Send anything to your Kindle from the command line -- documents, transcripts, raw text, PDFs -- formatted for actual reading.**
