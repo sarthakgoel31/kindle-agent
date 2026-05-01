@@ -2,6 +2,10 @@
 
 **Send any document to your Kindle with one command. PDFs, transcripts, web articles -- cleaned and formatted for actual reading.**
 
+<p align="center">
+  <img src="docs/k1.png" alt="Kindle Agent — VidText Chrome extension sending to Kindle" width="700" />
+</p>
+
 ## Why
 
 Amazon's "Send to Kindle" flow is clunky: find the email address, compose a message, attach the file, hope the formatting is decent. Kindle Agent is a single command. It takes any file -- PDF, DOCX, plain text, raw transcript -- cleans it (strips page numbers, fixes hyphenation, detects headings), converts it to reflowable Kindle HTML, and emails it to your device. The reading experience is excellent because the file is processed before sending, not just forwarded as-is.
