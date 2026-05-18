@@ -11,8 +11,8 @@ allowed-tools: Bash, Read, Write, Glob, Grep
 
 Sends documents to Sarthak's Kindle in the best readable format. Handles file preparation, format conversion, and delivery via Gmail SMTP.
 
-- **From:** sarthak.goel01@gmail.com
-- **To:** REDACTED
+- **From:** `<YOUR_GMAIL>` (set via `GMAIL_ADDRESS` env var)
+- **To:** `<YOUR_KINDLE_EMAIL>` (set via `KINDLE_EMAIL` env var)
 - **Script:** `.claude/agents/tools/send_to_kindle.py`
 
 ## Supported Inputs
@@ -101,7 +101,7 @@ Options:
 After sending, tell the user:
 - The file was sent successfully
 - It should appear on their Kindle within a few minutes (WiFi required)
-- If it's their first time: remind them to check that `sarthak.goel01@gmail.com` is in their Kindle approved senders list at https://www.amazon.com/hz/mycd/myx#/home/settings/payment
+- If it's their first time: remind them to check that their Gmail address (`GMAIL_ADDRESS`) is in their Kindle approved senders list at https://www.amazon.com/hz/mycd/myx#/home/settings/payment
 
 ## First-Time Setup
 
@@ -113,7 +113,7 @@ If the script reports "No Gmail App Password found", guide the user:
    ```bash
    python3 /Users/sarthak/Claude/.claude/agents/tools/send_to_kindle.py --store-password 'xxxx xxxx xxxx xxxx'
    ```
-4. Also ensure `sarthak.goel01@gmail.com` is added as an approved sender in Amazon Kindle settings
+4. Also ensure your Gmail address (`GMAIL_ADDRESS`) is added as an approved sender in Amazon Kindle settings
 
 ## Optional Dependencies
 

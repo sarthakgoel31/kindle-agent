@@ -105,7 +105,7 @@ pip install python-docx   # DOCX text extraction
 brew install calibre      # Premium ebook conversion
 ```
 
-Ensure `sarthak.goel01@gmail.com` is added as an approved sender in your Amazon Kindle settings.
+Ensure your `GMAIL_ADDRESS` is added as an approved sender in your Amazon Kindle settings.
 
 ## Status
 
